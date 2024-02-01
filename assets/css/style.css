@@ -1,0 +1,158 @@
+.post-date{
+  background:#f4f4f4;
+  padding:4px;
+  margin:3px 0;
+  display:block;
+  text-align: right;
+  color:black;
+}
+
+.post-thumb{
+  width:100%;
+}
+
+.cat-delete{
+  display:inline;
+}
+
+.container{
+  text-align: center;
+}
+
+.form{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user{
+  margin-top:10px;
+  margin-right:20px;
+}
+
+.row{
+  margin : 0 auto;
+}
+
+.just{
+  text-align: justify;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+html, body{
+  margin : 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: auto;
+}
+
+footer{
+  display: table-row;
+  height: 1px;
+}
+
+h5{
+  font-size: 12px;
+}
+
+.active{
+    background-color: #000000;
+}
+
+.left{
+  float: left; 
+}
+
+.align-left{
+  text-align: left; 
+}
+
+
+.right{
+  float: left; 
+}
+
+#chartContainer{
+  height: 25%; 
+  width: 100%; 
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 2%;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-top: 56px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #bbb;
+}
+
+.sidenav .closebtn {
+  color: red;
+  position: absolute;
+  top: 25px;
+  right: 64px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.info{
+  width: 200px; 
+  position: fixed;
+  margin-left: 1%;
+  left: 0;
+  overflow-x: hidden; 
+  margin-top: 4%; 
+  font-size:20px;
+  cursor:pointer;
+}
